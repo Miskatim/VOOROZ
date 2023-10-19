@@ -137,3 +137,13 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("hels").style.display ="flex";
       document.getElementById("newsButt").textContent = "✓☉Новини"
   }
+function funcmm() {
+        articleManifect01.style.display = "block"
+        document.getElementById("mainButt").textContent = "✓☉Головна"
+    
+        articleManifect02.style.display = "none";
+        manifectButt.textContent = "☉Маніфест";
+    
+        document.getElementById("hels").style.display ="none";
+        document.getElementById("newsButt").textContent = "☉Новини";
+  }
