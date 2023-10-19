@@ -256,3 +256,7 @@ li  {
         margin-left: 10%;
     }
 }
+
+#logoPlusName   {
+    cursor:  pointer;
+}
